@@ -1,0 +1,64 @@
+.form{
+    display: flex;
+}
+
+.Names{
+    padding-top: 6vw;
+    padding-left: 2vw;
+    font-size: 30px;
+
+}
+
+.InputFields{
+    padding-top: 6vw;
+    padding-left: 10vw;
+    font-size: 30px;
+    align-items: center;
+}
+.InputFields input{
+    padding: 0vh;
+margin: 3vh;
+padding-right: 10vh;
+padding-left: 10vh;
+height: 3vh;
+font-size: 2vh;
+text-align: center;
+
+}
+.button{
+    margin-inline: 15vh;
+margin-top: 4vh;
+width: 9%;
+height: 3vh;
+}
+#butt1{
+    margin-left: 7vw;
+    cursor: pointer;
+
+}
+#but1{
+    margin-left: 7vw;
+    cursor: pointer;
+}
+#butt2{
+    background-color: red;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#textarea{
+    width: 406px;
+    height: 61px;
+    margin-bottom: 5vh;
+}
+#Span2{
+    padding-left: 10vw;
+}
+.Names div{
+    padding-bottom: 58px;   
+    font-size: x-large;
+}
+/* .Names1 div{
+    padding-bottom: 58px;   
+} */

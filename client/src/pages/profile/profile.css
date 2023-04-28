@@ -1,0 +1,197 @@
+
+.profile-img > img{
+    width: 392px;
+    height: 450px;
+}
+.otherDetail > input{
+    width: 400px;
+    height: 44px;
+    font-size: larger;
+}
+.otherDetail > label{
+    font-size: xx-large;
+}
+
+.com_Detail > input{
+    width: 400px;
+    height: 44px;
+    font-size: larger;
+}
+.com_Detail > label{
+    font-size: xx-large;
+}
+
+.emp , .com {
+    display: flex;
+}
+.profile-img{
+    margin: 20px;
+}
+.otherDetail , .com_Detail{
+    padding-left: 300px;
+}
+
+.com , .emp{
+    margin: 40px;
+    flex-direction: column;
+}
+
+#profile {
+    padding: 0px 0px 15px 10px;
+    font-size: xxx-large;
+}
+
+#comform > label{
+    display: inline-block;
+    
+    font-size: x-large;
+    width: 300px;
+}
+
+#comform > input{
+    margin-left: 130px;
+    width: 350px;
+    height: 30px;
+    font-size: larger;
+}
+.descDiv > textarea{
+    margin-left: 130px;
+    width: 350px;
+   
+    font-size: larger;
+}
+
+#desc{
+    display: inline-block;
+    font-size: x-large;
+    width: 300px;
+}
+.descDiv{
+    display: flex;
+
+}
+
+
+
+
+
+#profileSpan2 {
+    font-size: larger;
+    padding: 0px 0px 15px 10px;
+}
+
+.daySection  > input, .startDateSection  > input, .endDateSection  > input, .amountPaidSection > input{
+    width: 68px;
+}
+
+.otherDiv{
+    display: flex;
+}
+
+.daySection{
+    /* width: 140px; */
+    margin-right: 3px;
+}
+
+.daySection > input{
+    width: 83%;
+}
+
+.startDateSection{
+    /* width: 80px; */
+    margin-right: 15px;
+}
+
+
+.endDateSection{
+    /* width: 80px; */
+    margin-right: 15px;
+}
+
+
+
+.amountPaidSection > input{
+    width: 80%;
+}
+
+.jobSection{
+    border: solid 1px #878484;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: fit-content;
+    font-size: larger;
+
+    
+}
+.jobsSection > label {
+    font-size: xx-large;
+}
+.jobsSection{
+    padding: 25px 10px 15px 10px;
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
+
+#addBtn{
+    padding: 4px 6px 4px 6px;
+    border-radius: 5px;
+    background-color: rgb(30 145 78);
+    color: white;
+    font-size: large;
+}
+#deleteBtn {
+    padding: 4px 6px 4px 6px;
+    border-radius: 5px;
+    background-color: rgb(218, 54, 13);
+    color: white;
+    font-size: large;
+}
+
+.outerJobSection{
+    display: flex;
+}
+
+.checkboxSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.checkboxSection > input{
+    width: 24px;
+    height: 25px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+}
+
+.dayDiv > input, .amountPaidDiv > input {
+    width: 110px;
+}
+
+.mainbody{
+    display: flex;
+}
+
+#updateBtn{
+    padding: 4px 6px 4px 6px;
+    border-radius: 5px;
+    background-color: rgb(30 145 78);
+    color: white;
+    font-size: large;
+}
+
+@media screen and (max-width: 1588px) {
+    .descDiv > textarea{
+        margin-left: 21px;
+
+    }
+    #desc{
+        width: fit-content;
+    }
+}

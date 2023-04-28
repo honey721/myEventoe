@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+}
+.sec1{
+    flex-basis: 20%;
+    margin: 10px;
+    border: 1px solid #9897a3;
+    height: fit-content;
+}
+.sec2{
+    flex-basis: 65%;
+    margin: 10px;
+    
+}
+.detail_heading{
+    font-weight: 100;
+}
+#h3{
+    color: red;
+}
+/* .profile-pic{
+    width: fit-content;
+} */
+/* .profile-pic > img {
+    width: 162px;
+    height: 158px;
+    border: 2px solid #555;
+    border-radius: 87px;
+} */
+.detail{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.detail > span{
+    border: 1px solid #c9c6c6;
+    padding: 3px;
+}
+.work_input > input {
+    width: 95%;
+    height: 35px;
+    border-radius: 22px;
+    padding-left: 40px;
+}
+.work_input{
+    margin-bottom: 20px;
+}
+
+.icon{
+    position: relative;
+    top: 32px;
+    left: 15px;
+    font-size: larger;
+}
+
+.Articles{
+    width: 596px;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+.article{
+    border: 1px solid #555;
+    /* height: 512px; */
+    width: fit-content;
+    font-family: emoji;
+    margin-bottom: 20px;
+    width: 45vw;
+}
+.upper{
+       border: 1px solid #555;
+    /* height: 40%; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.lower{
+       border: 1px solid #555;
+    /* height: 60%; */
+    padding: 15px;
+}
+/* .company_pic{
+    width: 40%;
+} */
+/* .about{
+    width: 52%;
+    height: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+} */
+/* .company_pic > img {
+    height: 88%;
+    width: 81%; 
+    margin: 10px 10px 10px 10px;
+    border-radius: 91px;
+} */
+
+#Org_name{
+    font-size: xx-large;
+    color: #0978d7;
+    height: fit-content;
+    width: 100%;
+}
+#phone{
+   
+    font-size: medium;
+    width: 100%;
+    height: fit-content;
+}
+#email{
+    height: fit-content;
+    font-size: medium;
+    width: 100%;
+}
+#address{
+    
+    font-size: medium;
+    height: fit-content;
+    width: 100%;
+    
+}
+.about > span{
+    margin: 3px;
+    
+}
+.desc > h2{
+    display: contents;
+}
+.days > input {
+    width: 30px;
+}
+.startDate > input{
+    width: 70px;
+}
+.endDate > input {
+    width: 70px;
+}
+.amountPaid > input {
+    width: 70px;
+}
+.avail_work{
+    margin-top: 10px;
+}
+.aboutJob{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
